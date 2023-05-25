@@ -1,0 +1,35 @@
+body {
+  background-image: url(https://cdn.dribbble.com/users/1583884/screenshots/16555266/v1014-bg-002a-dribbble_4x.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+h1, h2 {
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.pic{
+  display: flex;
+  flex-direction: column;
+}
