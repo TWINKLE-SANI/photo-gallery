@@ -33,3 +33,8 @@ h1, h2 {
   display: flex;
   flex-direction: column;
 }
+p{
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+}
